@@ -193,7 +193,7 @@ export default {
   ],
 
   // Contact Section
-  contactPara: "We all have a problems in our application that stackoverflow can't solve. Give me a shout, so I can solve it.",
+  contactPara: "We all have problems in our application that stackoverflow can't solve. Give me a shout, so I can solve it.",
   social: [
     // Add Or Remove The Link Accordingly
     {

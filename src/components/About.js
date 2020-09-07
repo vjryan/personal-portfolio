@@ -7,7 +7,7 @@ const About = () =>{
   return (
     <div>
       <Header name={data.name} contactEmail={data.contactEmail}></Header>
-      <div className="about_container">
+      <div className="about_container container">
         <h1>{data.aboutTitle}</h1>
         <p>{data.aboutPara}</p>
         <div className="about_contact">

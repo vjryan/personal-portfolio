@@ -7,7 +7,7 @@ const Skill = ({skills}) => {
     let backend = skills.backend.join(', ');
 
     return(
-        <div className="skills_container">
+        <div className="skills_container container">
             <h1>Skills.</h1>
             <div className="skill_summary_container">
                 <h2>Backend</h2>

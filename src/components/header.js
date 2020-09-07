@@ -1,15 +1,16 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+
 const Header = ({name, contactEmail})=>{
     return(
-        <div>
+        <header>
             <div className="header_container">
-                <Link to="/"><h1>{name}.</h1></Link>
+                <Link to="/"><h1>{name}</h1></Link>
                 <nav>
                     <ul>
-                        <li>
-                            <Link to="/projects">Past Projects</Link>
-                        </li>
+                        {/* <li>
+                            <Link to="/projects">Projects</Link>
+                        </li> */}
                         <li>
                             <Link to="/about">About</Link>
                         </li>
@@ -19,7 +20,7 @@ const Header = ({name, contactEmail})=>{
                     </ul>
                 </nav>
             </div>
-        </div>
+        </header>
     )
 }
 
