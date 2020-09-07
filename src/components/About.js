@@ -1,7 +1,7 @@
-import React from 'react';
-import Header from './header';
+import React   from 'react';
+import Header  from './header';
 import Contact from './Contact';
-import data from './yourdata';
+import data    from './yourdata';
 
 const About = () =>{
   return (

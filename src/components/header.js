@@ -8,6 +8,9 @@ const Header = ({name, contactEmail})=>{
                 <nav>
                     <ul>
                         <li>
+                            <Link to="/projects">Past Projects</Link>
+                        </li>
+                        <li>
                             <Link to="/about">About</Link>
                         </li>
                         <li>

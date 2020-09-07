@@ -23,8 +23,8 @@ const Experience = ({experience}) => {
                         </div>
                         <div className="bullets">
                             <ul>
-                                {item.bullets.map((bullet) =>(
-                                    <li>{bullet}</li>
+                                {item.bullets.map((bullet, index) =>(
+                                    <li key={index}>{bullet}</li>
                                 ))}
                             </ul>
                         </div>

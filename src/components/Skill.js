@@ -7,9 +7,9 @@ const Skill = ({skills}) => {
     let backend = skills.backend.join(', ');
 
     return(
-        <div className="experience_container">
+        <div className="skills_container">
             <h1>Skills.</h1>
-            <div className="job_container">
+            <div className="skill_summary_container">
                 <h2>Backend</h2>
                 <p>{skills.backend.join(', ')}</p>
 

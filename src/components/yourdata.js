@@ -14,7 +14,7 @@ export default {
   landingPagePara: 'I\'ve been a full stack developer for almost a decade! During this time I\'ve picked up some life saving tips/tricks to very annoying quirks with various applications and frameworks. I think it\'s what makes me unique in solving a lot of interesting problems.',
 
   // Landing Page Image (replace - root/public/assets/photo.jpg)
-  landingPageImage: "assets/avatar.jpg",
+  landingPageImage: "assets/avatar.png",
 
   experience : [
     {

@@ -16,7 +16,7 @@ const Landing = ()=>{
       <Home name={data.landingPageName} paragraph = {data.landingPagePara} authorImage={data.landingPageImage}></Home>
       <Experience experience={data.experience}></Experience>
       <Skill skills={data.skills}></Skill>
-      <Project projects={data.projects}></Project>
+      {/* <Project projects={data.projects}></Project> */}
       {/* <Contact contactEmail = {data.contactEmail} contactPara= {data.contactPara} socialLinks = {data.social}></Contact> */}
       <Social email = {data.contactEmail} social={data.social}></Social>
     </div>
