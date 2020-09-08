@@ -6,7 +6,7 @@ const Home = ({name, paragraph, authorImage})=>{
     <div>
         <div className="home_container container">
             <div className="home_head_wrapper">
-            <h1> Oh hi there! <br/> I'm <span>{name}</span></h1>
+            <h1> Oh Hi ! I'm <span>{name}</span></h1>
             <p>{paragraph}</p>
             </div>
             <div className="image_container">

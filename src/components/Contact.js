@@ -12,9 +12,7 @@ const Contact = ({contactEmail, contactPara, socialLinks})=>{
           <a className="email_link" href={`mailto:${contactEmail}`}>
             {contactEmail}
           </a>
-          </p>
-        <br></br>
-        
+        </p>
         <div className="social_links">
           <ul>
             <li >
