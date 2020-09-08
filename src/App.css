@@ -126,6 +126,11 @@ h1 {
   height: 26rem;
   width: 26rem;
   top:5rem;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px #999;
+  max-width: 25rem;
+  width: 100%;
+  background: #1E6FD9;
 }
 
 /* Experience */
@@ -329,18 +334,21 @@ h1 {
 
   .home_container .home_head_wrapper h1 {
     font-size: 2rem;
+    width: 45vw;
   }
 
 
   .home_container .home_head_wrapper p {
     top: 0rem;
     font-size: 1rem;
+    width: 75vw;
   }
 
   .home_container .image_container img {
-    height: 10rem;
-    width: 8rem;
-    top: 2rem;
+    height: 7rem;
+    width: 7rem;
+    top: 2.5rem;
+    right: 3rem;
   }
 
   /* Experience */
