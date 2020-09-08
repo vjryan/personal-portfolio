@@ -1,7 +1,5 @@
 export default {
-  //(Please Do Not Remove The comma(,) after every variable)
 
-  //Change The Website Template
   name: "Vijay Vethanayagam",
 
   //Contact Email
@@ -13,7 +11,7 @@ export default {
   // Landing Page Paragraph
   landingPagePara: 'I\'ve been a full stack developer for almost a decade! During this time I\'ve picked up some life saving tips/tricks to very annoying quirks with various applications and frameworks. I think it\'s what makes me unique in solving a lot of interesting problems.',
 
-  // Landing Page Image (replace - root/public/assets/photo.jpg)
+  // Landing Page Image / Profile
   landingPageImage: "assets/avatar.png",
 
   experience : [
@@ -142,7 +140,7 @@ export default {
   // Change Projects Here
   projects: [
     {
-      id: 1, //DO NOT CHANGE THIS (Please)😅
+      id: 1,
       title: "Quirky Turkeys", //Project Title - Add Your Project Title Here
       // Image Size Should be (300X300 px)
       imageSrc: "/assets/snap-quirk-turkeys.jpg",
@@ -150,46 +148,35 @@ export default {
       url: "https://quirkyturkeys.com/"
     },
     {
-      id: 2, //DO NOT CHANGE THIS (Please)😅
+      id: 2,
       title: "Club World Poker Tour",
       imageSrc: "/assets/snap-clubwpt.jpg",
       url: "https://www.clubwpt.com/"
     },
     {
-      id: 3, //DO NOT CHANGE THIS (Please)😅
+      id: 3, 
       title: "California Lottery",
       imageSrc: "/assets/snap-calottery.jpg",
       url: "https://www.calottery.com/"
     },
     {
-      id: 4, //DO NOT CHANGE THIS (Please)😅
+      id: 4, 
       title: "Pala Casino (New Jersey)",
       imageSrc: "/assets/snap-nj-palacasino.png",
       url: "https://playcasino.palacasino.com/"
     },
     // {
-    //   id: 5, //DO NOT CHANGE THIS (Please)😅
+    //   id: 5, 
     //   title: "Project Five",
     //   imageSrc: "https://via.placeholder.com/300",
     //   url: "http://chetanverma.com/"
     // },
     // {
-    //   id: 6, //DO NOT CHANGE THIS (Please)😅
+    //   id: 6, 
     //   title: "Project Six",
     //   imageSrc: "https://via.placeholder.com/300",
     //   url: "http://chetanverma.com/"
     // },
-    // Paste more projects here from the template
-
-    /*
-    // If You Want To Add More Project just Copy and Paste This At The End (Update the id Respectively)
-    {
-      id: 7,
-      service: 'Something Amazing',
-      imageSrc: "",
-      url: ''
-    }
-    */
   ],
 
   // Contact Section

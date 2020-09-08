@@ -245,7 +245,6 @@ h1 {
   padding-right: 3rem;
 }
 .contact_container li a{
-  color: #00000;
   text-decoration: none;
   font-size: 2rem;
 }
@@ -262,7 +261,7 @@ h1 {
   top:10rem;
 }
 .about_container h1{
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-family: 'Montserrat';
 }
 .about_container p{
