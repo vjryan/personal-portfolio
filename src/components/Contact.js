@@ -33,11 +33,11 @@ const Contact = ({contactEmail, contactPara, socialLinks})=>{
                 <FaGithub></FaGithub>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href={socialLinks[2].url}>
                 <FaCodepen></FaCodepen>
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

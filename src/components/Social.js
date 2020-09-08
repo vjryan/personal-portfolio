@@ -4,28 +4,31 @@ const Social = ({social, email}) => {
     return (
         <div className="contact_container">
             <div className="social_links">
-            <ul id="social">
-                <li>
-                <a href={`mailto:${email}`}>
-                    <FaEnvelope></FaEnvelope>
-                </a>
-                </li>
-                <li>
-                <a href={social[0].url}>
-                    <FaLinkedin></FaLinkedin>
-                </a>
-                </li>
-                <li>
-                <a href={social[1].url}>
-                    <FaGithub></FaGithub>
-                </a>
-                </li>
-                <li>
-                <a href={social[2].url}>
-                    <FaCodepen></FaCodepen>
-                </a>
-                </li>
-            </ul>
+                <ul id="social">
+                    <li >
+                    <span>Find Me On:</span>
+                    </li>
+                    <li>
+                    <a href={`mailto:${email}`}>
+                        <FaEnvelope></FaEnvelope>
+                    </a>
+                    </li>
+                    <li>
+                    <a href={social[0].url}>
+                        <FaLinkedin></FaLinkedin>
+                    </a>
+                    </li>
+                    <li>
+                    <a href={social[1].url}>
+                        <FaGithub></FaGithub>
+                    </a>
+                    </li>
+                    {/* <li>
+                    <a href={social[2].url}>
+                        <FaCodepen></FaCodepen>
+                    </a>
+                    </li> */}
+                </ul>
             </div>
         </div>
     );
