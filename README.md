@@ -1,5 +1,5 @@
-# Clean Minimal Portfolio Template
-Minimal Portfolio template for Developers/Designers built with React. Use it to showcase your work, testimonials and other information to clients.
+# Clean Minimal Portfolio
+Minimal Portfolio built with React. Use it to showcase your work, testimonials and other information to clients.
 
 ## The Data can be customised in the src/yourdata.js
 This repo contains an easy-to-customize personal portfolio template that was created with React. 
