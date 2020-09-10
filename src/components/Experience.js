@@ -16,7 +16,7 @@ const Experience = ({experience}) => {
                             <span>
                             <FaMapMarkerAlt></FaMapMarkerAlt> {item.location}
                             </span>
-                    
+
                             <span>
                                 <FaCalendarAlt></FaCalendarAlt> {item.start_date} - { item.end_date === null ? 'Present' : item.end_date}
                             </span>
@@ -24,6 +24,7 @@ const Experience = ({experience}) => {
                         <div className="summary">
                             {item.summary}
                         </div>
+                        <TechStack data={item.tech_used}></TechStack>
                         <div className="bullets">
                             <ul>
                                 {item.bullets.map((bullet, index) =>(
@@ -34,6 +35,21 @@ const Experience = ({experience}) => {
                     </div>
                 ))}
             </div>
+        </div>
+    );
+}
+
+const TechStack = ({data}) => {
+
+    if(data === undefined || data.length === 0){
+        return null;
+    }
+
+    return (
+        <div className="tech_stack">
+            <p>
+                <label>Tech Stack: </label> {data.join(', ', data)}
+            </p>
         </div>
     );
 }

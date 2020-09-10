@@ -23,11 +23,16 @@ export default {
       start_date : '07/2015',
       end_date   :  null,
       summary    : 'An email marketing company which designs tools to meet affiliate needs to help drive customer acquisitions on products. Originally hired to migrate their legacy applications and systems to current technologies.',
+      tech_used : [
+        'Laravel', 'Zend', 'Symphony', 'Vanilla PHP', 'Python', 'MySQL', 'RabbitMQ', 'Logstash', 'Elasticsearch', 'NodeJs', 'ReactJs'
+      ],
       bullets    : [
-          'Rapidly prototyping & deploying large scale concepts & ideas.',
-          'Working closely with operations & QA to bring quality products to users.',
-          'Updating legacy code to modern frameworks, technologies & best practices.',
-          'Updated geo-location platform to better track and understand user data based on regions.',
+          'Built an automated email marketing tool using Laravel & Elasticsearch that rivaled Mail Chimp; Improved processing & construction of emails to achieve a performance gain of ~200%.',
+          'Built a lightweight middleware API in Laravel to help bridge legacy applications during  migrations.',
+          'Built daemon processes to help improve queuing systems which leveraged RabbitMQ',
+          'Updated a decade old abandoned geo-location platform to better track & understand user data to sell/market products accurately.',
+          'Built an application messaging/notification system through NodeJs',
+          'Built a realtime chat system to allow communication across applications using NodeJS, SocketIO & Laravel',
       ]
     },
     {
@@ -38,14 +43,18 @@ export default {
       start_date : '06/2011',
       end_date   : '07/2015',
       summary    : 'Pala Interactive is an online gambling company; One of their most notable applications made would be world poker tour. My responsibilities here were to develop tools to help manage their large & heavily regulated (and audited) applications.',
+      tech_used : [
+        'Zend', 'Vanilla PHP', 'Java', 'MySQL', 'Oracle', 'BackboneJs', 'Polymer'
+      ],
       bullets    : [
-          'Migrated applications to a more modern MVC framework (CakePHP).',
-          'Migrated legacy systems and applications to modern technologies, which improved development time on new features.',
-          'Developed tools for internally and externally for partners and vendors.',
-          'Managed multiple projects that demanded developing rapidly for deployment.',
-          'Integrated external services such as payment services (PayPal ) & social media (Twitter, Facebook).',
-          'Improved efficiency and performance of out-dated applications.',
-          'Integrated with many third party APIs from partners and vendors.'
+          'Designed & built the virtual store API services on ZendPHP which was the integrating store for all applications',
+          'Migrated legacy systems and applications to ZendPHP, which improved development time on new features.',
+          'Developed tools internally & externally for partners and vendors.',
+          'Managed multiple projects that demanded rapid development for deployment.',
+          'Integrated external services such as payment & social media services (PayPal, Twitter, Facebook).',
+          'Improved transaction processing by creating batched daemonized PHP processes to alleviate load on servers.',
+          'Integrated with many third party REST API services from partners & vendors.',
+          'Implemented analytics to help better understand application usage.',
       ]
     },
     {
@@ -56,10 +65,13 @@ export default {
       start_date : '02/2008',
       end_date   :  '06/2011',
       summary    : 'A B2B SaaS start-up (now known as Apogee IT Services) that worked as the IT department for 50+ businesses primarily developing applications to assist in the upkeep & inventory of all workstations and servers.',
+      tech_used : [
+        'CakePHP', 'Vanilla PHP', 'C#','MySQL', 'JQuery'
+      ],
       bullets    : [
         'Migrated applications to a more modern MVC framework (CakePHP).',
         'Designed easy user interfaces and great user experiences for the digital platforms of small companies.',
-        'Proficiently created and maintained easy-to-use aesthetic UIs.',
+        'Created & maintained easy-to-use aesthetic UIs.',
       ]
     },
     {
@@ -84,6 +96,9 @@ export default {
       start_date : '01/2006',
       end_date   : '02/2008',
       summary    : 'TNS helps businesses complete their transactions without going through one of the "Big Banks". They are a payment processor and channel for white label ATMs.',
+      tech_used : [
+        'C#', 'ASP.NET', 'MS SQL', 'Selenium'
+      ],
       bullets    : [
         '2nd tier technical support for a wide set of ATM Models.',
         'Ensured software being pushed to ATMs & processing units were bug-free.',
