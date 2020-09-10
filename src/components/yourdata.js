@@ -9,7 +9,7 @@ export default {
   landingPageName: "Vijay",
 
   // Landing Page Paragraph
-  landingPagePara: 'I\'ve been a full stack developer for almost a decade! During this time I\'ve picked up some life saving tips/tricks to very annoying quirks with various applications and frameworks. I think it\'s what makes me unique in solving a lot of interesting problems.',
+  landingPagePara: 'I\'ve been a full stack developer for almost a decade! During this time I\'ve picked up some life saving tips & tricks to very annoying quirks with various applications and frameworks. I think it\'s what makes me unique in solving a lot of interesting problems.',
 
   // Landing Page Image / Profile
   landingPageImage: "assets/avatar.png",
@@ -22,17 +22,17 @@ export default {
       location   : 'Toronto, ON, CAN',
       start_date : '07/2015',
       end_date   :  null,
-      summary    : 'An email marketing company which designs tools to meet affiliate needs to help drive customer acquisitions on products. Originally hired to migrate their legacy applications and systems to current technologies.',
+      summary    : 'An email marketing company which designs tools to meet affiliate needs to help drive customer acquisitions on products.',
       tech_used : [
         'Laravel', 'Zend', 'Symphony', 'Vanilla PHP', 'Python', 'MySQL', 'RabbitMQ', 'Logstash', 'Elasticsearch', 'NodeJs', 'ReactJs'
       ],
       bullets    : [
           'Built an automated email marketing tool using Laravel & Elasticsearch that rivaled Mail Chimp; Improved processing & construction of emails to achieve a performance gain of ~200%.',
           'Built a lightweight middleware API in Laravel to help bridge legacy applications during  migrations.',
-          'Built daemon processes to help improve queuing systems which leveraged RabbitMQ',
+          'Built daemon processes to help improve queuing systems which leveraged RabbitMQ.',
           'Updated a decade old abandoned geo-location platform to better track & understand user data to sell/market products accurately.',
-          'Built an application messaging/notification system through NodeJs',
-          'Built a realtime chat system to allow communication across applications using NodeJS, SocketIO & Laravel',
+          'Built an application messaging/notification system through NodeJs.',
+          'Built a realtime chat system to allow communication across applications using NodeJS, SocketIO & Laravel.',
       ]
     },
     {
@@ -42,12 +42,12 @@ export default {
       location   : 'Toronto, ON, CAN',
       start_date : '06/2011',
       end_date   : '07/2015',
-      summary    : 'Pala Interactive is an online gambling company; One of their most notable applications made would be world poker tour. My responsibilities here were to develop tools to help manage their large & heavily regulated (and audited) applications.',
+      summary    : 'An online gambling/gaming company with one of the most popular online poker platforms: Club World Poker Tour. They are also the application provider behind the second chance California State Lottery.',
       tech_used : [
         'Zend', 'Vanilla PHP', 'Java', 'MySQL', 'Oracle', 'BackboneJs', 'Polymer'
       ],
       bullets    : [
-          'Designed & built the virtual store API services on ZendPHP which was the integrating store for all applications',
+          'Designed & built the virtual store API services on ZendPHP which was the integrating store for all applications.',
           'Migrated legacy systems and applications to ZendPHP, which improved development time on new features.',
           'Developed tools internally & externally for partners and vendors.',
           'Managed multiple projects that demanded rapid development for deployment.',
@@ -81,7 +81,7 @@ export default {
       location   : 'Toronto, ON, CAN',
       start_date : '07/2007',
       end_date   : '02/2008',
-      summary    : 'The Canadian Bankers Association advocates for public policies that contribute to a sound, thriving banking system. The association also helps enforce new policies & regulations for the big banks to stay under check.',
+      summary    : 'The association advocates for public policies that contribute to a sound, thriving banking system. The association also helps enforce new policies & regulations for the big banks to stay under check.',
       bullets    : [
         'Analyzed security data to identify potential exposure to fraud.',
         'Ensured proper security and testing of various ATMs.',
@@ -95,7 +95,7 @@ export default {
       location   : 'Toronto, ON, CAN',
       start_date : '01/2006',
       end_date   : '02/2008',
-      summary    : 'TNS helps businesses complete their transactions without going through one of the "Big Banks". They are a payment processor and channel for white label ATMs.',
+      summary    : 'Fintech that helps businesses complete their transactions without going through one of the "Big Banks". They are a payment processor and channel for white label ATMs.',
       tech_used : [
         'C#', 'ASP.NET', 'MS SQL', 'Selenium'
       ],
