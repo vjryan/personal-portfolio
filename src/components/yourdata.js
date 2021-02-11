@@ -3,7 +3,7 @@ export default {
   name: "Vijay Vethanayagam",
 
   //Contact Email
-  contactEmail: "vj@gmail.com",
+  contactEmail: "vijay@quirkyturkeys.com",
 
   // Landing Page Name
   landingPageName: "Vijay",
@@ -17,11 +17,30 @@ export default {
   experience : [
     {
       position   : 'Senior full stack developer',
+      company    : 'Inkbox',
+      website    : 'https://www.inkbox.com/',
+      location   : 'Toronto, ON, CAN',
+      start_date : '10/2020',
+      end_date   :  null,
+      summary    : 'A socially conscious e-commerce that creates on-demand temporary-permanent tattoos.',
+      tech_used : [
+        'Laravel', 'PHP', 'MySQL', 'Redis', 'Elasticsearch', 'VueJs', 'JQuery', 'AWS'
+      ],
+      bullets    : [
+        'Implementation of a robust set of services and APIs to power the web application.',
+        'Optimization of the application for maximum speed and scalability.',
+        'Implementation of security and data protection.',
+        'Integrating with various 3rd party platforms such as Contentful, Shopify, Stripe, Brightcove, Shippo etc.',
+        'Optimizing logistics & fullfillment to help fascilate faster production time while decreasing cost overhead.'
+      ]
+    },
+    {
+      position   : 'Senior full stack developer',
       company    : 'Instaclick Inc',
       website    : 'https://www.instaclick.com/',
       location   : 'Toronto, ON, CAN',
       start_date : '07/2015',
-      end_date   :  null,
+      end_date   : '10/2020',
       summary    : 'An email marketing company which designs tools to meet affiliate needs to help drive customer acquisitions on products.',
       tech_used : [
         'Laravel', 'Zend', 'Symphony', 'Vanilla PHP', 'Python', 'MySQL', 'RabbitMQ', 'Logstash', 'Elasticsearch', 'NodeJs', 'ReactJs'
